@@ -68,14 +68,14 @@ className="border-2 border-gray-300 mr-1  rounded-full w-6 h-6 focus:outline-non
               ))}
               </div>
             {/* size */}
-            <div className="flex ml-6 items-center">
+            <div className="flex ml-6 items-center ">
               <span className="mr-3 leading-relaxed scroll-m-20 text-lg font-bold text-myBlackHead">Size</span>
              
               <div className="form-control w-full max-w-xs">
  
   <select
 onChange={(e)=>setCartItem({...cartItem, size:e.target.value})} 
-  className="select select-bordered">
+  className="select select-bordered ">
     <option disabled selected>Select Size</option>
     {slug[0].size.map((Item,i)=>(
         <option key={i}>{Item}</option>
