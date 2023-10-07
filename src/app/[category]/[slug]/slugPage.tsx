@@ -75,7 +75,7 @@ className="border-2 border-gray-300 mr-1  rounded-full w-6 h-6 focus:outline-non
  
   <select
 onChange={(e)=>setCartItem({...cartItem, size:e.target.value})} 
-  className="select select-bordered ">
+  className="select select-bordered">
     <option disabled selected>Select Size</option>
     {slug[0].size.map((Item,i)=>(
         <option key={i}>{Item}</option>
